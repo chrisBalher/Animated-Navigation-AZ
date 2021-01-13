@@ -1,3 +1,5 @@
+/* import * as wordcloud from "./wordcloud"; */
+
 const menuBars = document.getElementById('menu-bars')
 const overlay = document.getElementById('overlay')
 const nav1 = document.getElementById('nav-1')
@@ -39,4 +41,5 @@ menuBars. addEventListener('click', toggleNav)
 navItems.forEach((nav)=>{
     nav.addEventListener('click', toggleNav)
 } )
+
 
