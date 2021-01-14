@@ -1,12 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=PT+Serif:wght@400;700&display=swap');
-:root {
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=PT+Serif:wght@400;700&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap');
+/* :root {
   --primaryColor: #fff;
   --navColor1: #21292c;
   --navColor2: rgba(144,100,250,0.95);
   --navColor3: rgba(104, 105, 207,0.97);
   --navColor4:  rgb(127, 166, 241,0.97); 
   --navColor5: rgba(105,174,216,0.98);
+} */
+:root {
+  --primaryColor: black;
+  --navColor1: #21292c;
+  --navColor2: #8191A6;
+  --navColor3:#4A6D8C;
+  --navColor4: #2d5873;
+  --navColor5: #F2D4AE; 
 }
 
 html {
@@ -16,9 +25,8 @@ html {
 body {
   margin: 0;
   background: #000;
-  font-family: 'Cinzel', serif;
-  font-weight: 700;
-  //font-family: Nunito, sans-serif;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 200;
 }
 
 /* --- Navigation Menu ------------------------------ */
@@ -204,7 +212,7 @@ section {
   position: relative;
   display: flex;
   flex-direction: column;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   color: var(--primaryColor);
 }
 
@@ -263,17 +271,13 @@ section#about {
   margin-bottom: 10px;
   flex: none;
   margin-left: 1rem;
-  
-  font-size: large;
-
+  font-size: 1.7rem;
 }
 .item-content{
   width: 80%;
   margin: auto auto;
   padding: auto 10% 0px 20%;
   list-style: none;
-  font-family: 'PT Serif', serif;
-  font-weight: 400;
 }
 .item-content-columna1{
   margin-top: 0;
@@ -294,16 +298,24 @@ section#about {
 .item ul{
   padding-top: 0;
   margin-top: 0;
+  padding-bottom: 40px;
 }
+.item li{
+  padding: 0;
+  margin: -5px;
+}
+
 section#about h1{
   margin-top: 4rem;
   text-align: center;
+  font-size: 3.2rem;
+  font-weight: 300;
 }
 section#about h2{
   display:block;
   margin-top: 0;
-  font-size: 1.7rem;
-  font-weight: 500;
+  font-size: 2.3rem;
+  font-weight: 300;
   text-align: center;
 }
 
