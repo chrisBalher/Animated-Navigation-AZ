@@ -26,7 +26,7 @@ body {
   margin: 0;
   background: #000;
   font-family: 'Work Sans', sans-serif;
-  font-weight: 200;
+  font-weight: 300;
 }
 
 /* --- Navigation Menu ------------------------------ */
@@ -271,13 +271,13 @@ section#about {
   margin-bottom: 10px;
   flex: none;
   margin-left: 1rem;
-  font-size: 1.7rem;
+  font-size: 1.4rem;
 }
 .item-content{
   width: 80%;
   margin: auto auto;
   padding: auto 10% 0px 20%;
-  list-style: none;
+  
 }
 .item-content-columna1{
   margin-top: 0;
@@ -302,7 +302,8 @@ section#about {
 }
 .item li{
   padding: 0;
-  margin: -5px;
+  padding-bottom: 5px;
+  margin: -2px;
 }
 
 section#about h1{
