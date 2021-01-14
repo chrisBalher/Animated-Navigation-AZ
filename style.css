@@ -218,15 +218,15 @@ section#home {
   color:black;
   align-items: center;
 }
-section#home #nombre{
+.home-titulo{
   position: absolute;
   display:block;
   top: 25%;
-  padding: 20px 20px;
   border-radius: 25px;
   font-size: 2rem;
   box-shadow: 20px 15px 30px 5px rgba(0, 0, 0, 0.6);
   background-color: rgba(255, 255, 255, 0.8);
+  padding: 15px 25px 15px 25px;
 }
 
 section#home a {
@@ -269,8 +269,8 @@ section#about {
 }
 .item-content{
   width: 80%;
-  margin: auto 10% 0px 20%;
-  padding: 10px;
+  margin: auto auto;
+  padding: auto 10% 0px 20%;
   list-style: none;
   font-family: 'PT Serif', serif;
   font-weight: 400;
@@ -280,9 +280,12 @@ section#about {
   padding-top: 0;
   margin-left: 10%;
 }
+.item-content-columna2{
+  margin-left: 10%;
+}
 .item-columnas{
   display: flex;
-  width: 90%;
+  width: 80%;
   margin: auto 10% 0px 10%;
 }
 .item-columnas li{
