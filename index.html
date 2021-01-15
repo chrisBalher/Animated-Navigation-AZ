@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Menu de Navegación Animado</title>
+  <title>Anderson Zelarayan</title>
   <link rel="icon" type="image/png" href="favicon.png">
   <link rel="stylesheet" href="style.css">
-  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
 </head>
 <body>
   <!-- Menu Overlay -->
@@ -18,10 +18,10 @@
           <a href="#home" >Home</a>
         </li>
         <li id="nav-2" class="slide-out-2">
-          <a href="#about" >Acerca de mi </a>
+          <a href="#about" >Hoja de vida </a>
         </li>
         <li id="nav-3" class="slide-out-3">
-          <a href="#skills" >Habilidades</a>
+          <a href="#skills" >Biografía</a>
         </li>
         <li id="nav-4" class="slide-out-4">
           <a href="#projects" >Proyectos</a>
@@ -44,9 +44,9 @@
 
   </section>
   <section id="about">
-    <h1>HOJA DE VIDA</h1>
+    <h1>Hoja de vida</h1>
     <span class="section-container">
-      <span class="item">
+      <div class="item-flex2">
         <h2>EXPERIENCIA</h2>
           <ul class="item-content">
             <li>Global Mould Design Engineer</li>
@@ -63,52 +63,62 @@
             <li>Pontificia Universidad Católica del Perú</li>
             <li>Ago/2014-Dic/2014</li>
           </ul>
-      </span>
-      <span class="item">
-        <h2>EDUCACIÓN</h2>
+      </div>
+      <div class="item-flex2">
+        <h2 id="item-titulo2">EDUCACIÓN</h2>
         <ul class="item-content">
           <li>Pontificia Universidad Católica - PUCP</li>
           <li>Ingeniería Mecatrónica</li>
           <li>2010-2015</li>
         </ul>
-      </span>
-      <!-- <span class="item">
-        <h2>Aptitudes y validaciones</h2>
-        <span class="item-columnas item-content">
-          <ul >
-            <li>Matlab</li>
-            <li>C++</li>
-            <li>Autodesk Inventor</li>
-            <li>Visual Studio</li>
-            <li>Docencia</li>
-          </ul>
-          <ul >
-            
-            <li>Trabajo en equipo</li>
-            <li>Eagle PCB</li>
-            <li>ACL programming</li>
-            <li>Programación CNC</li>
-          </ul>
-        </span>
-      </span> -->
-      <!-- <span class="item">
-        <h2>Logros</h2>
-        <span class="item-content item-columnas">
-          <p class="item-content-columna1">IDIOMAS:</p>
-          <ul class="item-content-columna2">
-            <li>Español</li>
-            <li>Ingles</li>
-          </ul>
-        </span>
-      </span> -->
+      </div>
     </span>
-    
   </section>
-  <section id="skills"><h1>Biografia</h1></section>
+  
+  <section id="skills">
+    <h1>Biografia</h1>
+    <span class="section-container">
+      <div class="item-flex2 margin-strech">
+        <p >pariatur autem tempora. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam, nulla velit a tenetur est doloremque dolorum debitis rem libero modi quis explicabo consequatur recusandae, laboriosam tempora in vel, amet delectus. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas <img class="bio-image" src="./src/art1.PNG" alt="bio">  repellendus dignissimos porro quos Lorem ipsum dolor sit una awdaw n awuqen o amet consectetur adipisicing elit. Reiciendis quasi aspernatur modi placeat maxime debitis  andesron awdlkamdlw nam, consequuntur doloribus.</p>
+        
+      </div>
+      <div class="item-flex2 margin-strech">
+        <p id="item-text">Lorem ipss totam voluptas voluptatum? Repellat adipisci architecto voluptatem cupiditate dolore harum porro modi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit explicabo ducimus itaque doloremque odio reprehenderit placeat dicta, dolor quam rem eius. Similique non nulla placeat perspiciatis, odio pariatur autem tempora. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam, nulla velit a tenetur est doloremque dolorum debitis aw wd sdfsd fs aw ads a ssadsgfg rem libero modi quis explicabo consequatur recusandae, laboriosam tempora in vel, amet delectus. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas repellendus dignissimos porro quos repudiandae praesentium ipsum. </p>
+      </div>
+      
+    </span>
+  </section>
+  
   <section id="projects"><h1>Proyectos</h1></section>
-  <section id="contact"><h1>Contacto</h1></section>
+  <section id="contact"><h1>Contacto</h1>
+    <div class="social-links">
+
+      <a href="#" target="_blank">
+        <i class="fa fa-linkedin fa-inverse"></i>
+      </a>
+      <a href="#" target="_blank">
+        <i class="fa fa-facebook fa-inverse "></i>
+      </a>  
+      <a href="#" target="_blank">
+        <i class="fa fa-instagram fa-inverse "></i>
+      </a>  
+      <a href="#" target="_blank">
+        <i class="fa fa-envelope fa-inverse "></i>
+      </a>  
+
+    </div>
+    <hr />
+    <div class="footer">
+      <p class="footer__text">
+        © 2020 - developed by <a href="https://github.com/chrisBalher" target="_blank">Tu papi chris</a>
+        </a>
+      </p>
+    </div>
+
+    
+
+  </section>
   <!-- Script -->
   <script type="module" src="script.js"></script>
-  <!-- <script type="module" src="wordcloud.js"></script> -->
 </body>
 </html>
