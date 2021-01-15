@@ -46,11 +46,11 @@ body {
   transform: translateX(-100vw);
 }
 .overlay-slide-right {
-  transition: all 0.5s ease-in-out;
+  transition: all 0.3s ease-in-out;
   transform: translateX(0);
 }
 .overlay-slide-left {
-  transition: all 0.5s ease-in-out;
+  transition: all 0.3s ease-in-out;
   transform: translateX(-100vw);
 }
 
@@ -123,19 +123,19 @@ nav li:nth-of-type(5) {
 }
 /* Slide in animation with delay for each nav item */
 .slide-in-1 {
-  animation: slide-in 0.4s linear 0.2s both
+  animation: slide-in 0.1s linear 0.2s both
 }
 .slide-in-2 {
-  animation: slide-in 0.4s linear 0.3s both
+  animation: slide-in 0.1s linear 0.27s both
 }
 .slide-in-3 {
-  animation: slide-in 0.4s linear 0.4s both
+  animation: slide-in 0.1s linear 0.34s both
 }
 .slide-in-4 {
-  animation: slide-in 0.4s linear 0.5s both
+  animation: slide-in 0.1s linear 0.41s both
 }
 .slide-in-5 {
-  animation: slide-in 0.4s linear 0.6s both
+  animation: slide-in 0.1s linear 0.48s both
 }
 
 @keyframes slide-in {
