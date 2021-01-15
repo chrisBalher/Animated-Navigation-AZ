@@ -86,7 +86,9 @@ nav li a {
   font-size: 1.1rem;
   padding: 2.8rem;
 }
-
+#nav-5{
+  color: var(--navColor1);
+}
 nav li a:hover{
   transform: scale(1.2);
 }
