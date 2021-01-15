@@ -126,16 +126,16 @@ nav li:nth-of-type(5) {
   animation: slide-in 0.1s linear 0.2s both
 }
 .slide-in-2 {
-  animation: slide-in 0.1s linear 0.27s both
+  animation: slide-in 0.1s linear 0.29s both
 }
 .slide-in-3 {
-  animation: slide-in 0.1s linear 0.34s both
+  animation: slide-in 0.1s linear 0.38s both
 }
 .slide-in-4 {
-  animation: slide-in 0.1s linear 0.41s both
+  animation: slide-in 0.1s linear 0.47s both
 }
 .slide-in-5 {
-  animation: slide-in 0.1s linear 0.48s both
+  animation: slide-in 0.1s linear 0.56s both
 }
 
 @keyframes slide-in {
