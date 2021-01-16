@@ -279,7 +279,7 @@ section#about {
   flex-wrap: wrap;
   width: 100%;
   height: 100%;
-  margin-bottom: 10vh;
+  margin-bottom: 2vh;
   justify-content: space-between;
   position: relative;
 }
@@ -451,13 +451,15 @@ section#skills .parrafo1{
 }
 
 /* Media Query: Large Smartphone (Vertical) */
-@media (max-width: 870px){
+@media (max-width:1099px){
   .bio-image{
     display: block;
     float: unset;
     width: auto;
     margin: 15px auto 25px auto;
   }
+}
+@media (max-width: 870px){
   #skills .parrafo1{
     margin-left:unset !important;
   }
