@@ -230,7 +230,7 @@ section#projects h1{
 
 /* Section Home */
 section#home {
-  background-image: url("/src/portada1-2500.jpg");
+  background-image: url("./src/portada1-2500.jpg");
   background-size: cover;
   background-position: center center;
   color:black;
