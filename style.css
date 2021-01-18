@@ -491,7 +491,7 @@ section#skills .parrafo1{
     margin-top: 2rem;
   }
   section#home {
-    background-image: url("/src/portada1-650.jpg");
+    background-image: url("./src/portada1-650.jpg");
   }
 }
 
