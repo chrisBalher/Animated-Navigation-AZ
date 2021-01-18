@@ -1,4 +1,3 @@
-/* import * as wordcloud from "./wordcloud"; */
 
 const menuBars = document.getElementById('menu-bars')
 const overlay = document.getElementById('overlay')
