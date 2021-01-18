@@ -230,7 +230,7 @@ section#projects h1{
 
 /* Section Home */
 section#home {
-  background-image: url("./src/portada1.JPG");
+  background-image: url("/src/portada1-2500.jpg");
   background-size: cover;
   background-position: center center;
   color:black;
@@ -377,7 +377,6 @@ section#projects li{
 
 .pro-image{
   max-height: 100%;
-  //width: 500px;
   min-width: 99%;
   max-width: 100%;
   object-fit: cover;
@@ -462,6 +461,7 @@ section#skills .parrafo1{
   #skills .parrafo1{
     margin-left:unset !important;
   }
+  
 }
 @media (max-width: 760px){
   section h1{
@@ -490,7 +490,11 @@ section#skills .parrafo1{
   section#item-titulo2{
     margin-top: 2rem;
   }
+  section#home {
+    background-image: url("/src/portada1-650.jpg");
+  }
 }
+
 @media (max-width: 600px) {
   section#home a {
     top: 1rem;
@@ -527,4 +531,5 @@ section#skills .parrafo1{
     margin: 12vh  5% auto 5%;
     font-size: 4rem;
   }
+
 }
