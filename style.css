@@ -274,6 +274,7 @@ section#about {
   margin-bottom: 2vh;
   justify-content: space-between;
   position: relative;
+
   
 }
 section#about .section-container{
@@ -327,30 +328,6 @@ section#about a {
   border-bottom: 1px solid black;
 }
 
-/* SECTION SKILLS */
-#skills p{
-  text-align: justify;
-  padding: 0px 15px 0px 20px;
-  margin: auto;
-}
-
-.bio-image{
-  float: right;
-  min-width: 35%;
-  margin: 10px 0 0 10px;
-  max-height: 280px;  
-/*
-  box-shadow: 10px 10px 20px 3px rgba(0, 0, 0, 0.6);   
-  position: absolute;
-  top: 40%;
-  padding: 0 33% 0 33%;
-  width: 33%; */
-}
-
-#item-text{
-  margin-right: 1rem !important;
-}
-
 section#about h2{
   display:block;
   margin-top: 0;
@@ -359,9 +336,22 @@ section#about h2{
   text-align: center;
 }
 
-/* SECTION SKILLS */
-section#skills {
+/* SECTION biografia */
+#biografia p{
+  text-align: justify;
+  padding: 0px 15px 0px 20px;
+}
+.bio-image{
+  float: right;
+  min-width: 35%;
+  margin: 10px 0 0 10px;
+  max-height: 280px;  
+}
+section#biografia {
   background-color: var(--navColor3);
+}
+#item-text{
+  margin-right: 4rem;
 }
 /* SECTION PROJECTS */
 section#projects {
@@ -461,8 +451,8 @@ hr {
   width: 50%;
   border-top: 2px solid rgba(255, 255, 255, 0.1);
 }
-section#skills .parrafo1{
-  margin-left: 5%;
+section#biografia .parrafo1{
+  margin-left: 8%;
 }
 
 
@@ -486,10 +476,15 @@ section#skills .parrafo1{
   }
 }
 @media (max-width: 870px){
-  #skills .parrafo1{
+  #biografia .parrafo1{
     margin-left:unset !important;
   }
-  
+  .parrafo1{
+    margin-right: 1rem;
+  }
+  #item-text{
+    margin-right: 1rem;
+  }
 }
 @media (max-width: 760px){
   section h1{
@@ -519,6 +514,7 @@ section#skills .parrafo1{
   section#home {
     background-image: url("./src/portada1-650.jpg");
   }
+
 }
 
 @media (max-width: 600px) {
@@ -545,6 +541,7 @@ section#skills .parrafo1{
     width: unset;
     font-size: 1rem;
   }
+
   .gallery{
     
     margin: 10px 20px 20px;
