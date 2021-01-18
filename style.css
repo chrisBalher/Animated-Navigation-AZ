@@ -240,9 +240,9 @@ section#home {
 .home-titulo{
   position: absolute;
   display:block;
-  top: 25%;
+  top: 33%;
   border-radius: 25px;
-  font-size: 2rem;
+  font-size: 2.5rem;
   box-shadow: 20px 15px 30px 5px rgba(0, 0, 0, 0.6);
   background-color: rgba(255, 255, 255, 0.8);
   padding: 15px 25px 15px 25px;
@@ -277,7 +277,7 @@ section#about {
   
 }
 section#about .section-container{
-  margin-top: 5%;
+  margin-top: 6%;
 }
 .item-flex2{
   width: calc((100% - 2rem) / 2);
@@ -377,7 +377,7 @@ section#projects {
 .gallery-item{
   box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
   overflow: hidden;
-  margin: 30% 0 0 0;
+  margin: 32% 0 0 0;
   flex: 1 0 24rem;
 }
 .gallery-image{
@@ -475,11 +475,12 @@ section#skills .parrafo1{
     max-width: 100%;
     margin: 15px auto 25px auto;
   }
-}
-@media (max-width:1010px){
   .gallery-item{
     margin: 0.5rem;
   }
+}
+@media (max-width:1010px){
+  
   section#about .section-container{
     margin-top: unset;
   }
