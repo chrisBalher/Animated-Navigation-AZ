@@ -115,6 +115,10 @@ nav li:nth-of-type(5) {
 nav #nav-5 a{
   color: black;
 }
+#nav-5 a::before{
+  content: "";
+  background-color: black;
+}
 
 /* Slide IN animation with delay for each nav item */
 
