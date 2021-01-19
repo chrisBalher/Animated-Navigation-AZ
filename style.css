@@ -241,7 +241,7 @@ section#home {
   position: absolute;
   display:block;
   top: 33%;
-  border-radius: 25px;
+  border-radius: 1px;
   font-size: 2.5rem;
   box-shadow: 20px 15px 30px 5px rgba(0, 0, 0, 0.6);
   background-color: rgba(255, 255, 255, 0.8);
