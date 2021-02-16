@@ -460,8 +460,8 @@ section#biografia .parrafo1{
 }
 
 
+/* Media Query*/
 
-/* Media Query: Large Smartphone (Vertical) */
 @media (max-width:1200px){
   .bio-image{
     display: block;
